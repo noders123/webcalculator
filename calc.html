@@ -2,27 +2,35 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css"></link>
+    <script src="script.js"></script>
     <title>MY Calculator</title>
 </head>
 
 <body> 
-    <form class="calculator">
-    <input class="value" name="value" type="text" readonly="" ></input>
-    <span class="num">+</span>
-    <span class="num">-</span>
-    <span class="num">*</span>
-    <span class="num">/</span>
-    <span class="num">0</span>
-    <span class="num">1</span>
-    <span class="num">2</span>
-    <span class="num">3</span>
-    <span class="num">4</span>
-    <span class="num">5</span>
-    <span class="num">6</span>
-    <span class="num">7</span>
-    <span class="num">8</span>
-    <span class="num">9</span>
-    </form>
+<div class="calc-grid">
+    <div class="output">
+        <div class="previous-operand"></div>
+        <div class="current-operand"></div>
+    </div>
+    <button class="span-two">AC</button>
+    <button>DEL</button>
+    <button>%</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>*</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>+</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>-</button>
+    <button>.</button>
+    <button>0</button>
+    <button class="span-two">=</button>
+</div>
 </body>
 
 </html>
