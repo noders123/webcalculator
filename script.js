@@ -22,8 +22,7 @@ class Calculator {
 
     getDisplayNumber(number){
         const floatNumber = parseFloat(number)
-        if (isNaN(floatNumber)) return ''
-        
+        if (isNaN(floatNumber)) return ''  
     }
 
 
